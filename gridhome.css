@@ -7,11 +7,20 @@ grid-row-gap: 0px;
 height: 100%;
 }
 
+#page{
+    background: #00000011;
+    padding-top: 100px;
+    width: 200vh;
+}
+
+title{
+    margin-left: auto;
+    margin-right: auto;
+}
+
 header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 300px;
+    text-align: center;
+    margin-bottom: 100px;
 }
 
 #sizebox{
@@ -21,8 +30,15 @@ header{
     margin-right: auto;
 }
 
+#holder{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
 #guestbook{
-    width: 1000px;
+    width: 980px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 100px;
