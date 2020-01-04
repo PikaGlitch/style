@@ -1,0 +1,21 @@
+body{
+    background: black;
+    background-image: url("https://pikaglitch.github.io/style/edit.jpg");
+    font-family: arial;
+    color: yellow;
+    cursor: url('https://pikaglitch.github.io/style/pika.cur'), auto;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#screen{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+}
+
+#page{
+}

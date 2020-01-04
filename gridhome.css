@@ -1,0 +1,63 @@
+#content{
+display: grid;
+grid-template-columns: repeat(6, 1fr);
+grid-template-rows: repeat(10, 1fr);
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+height: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+#sizebox{
+    width: 1000px;
+    height: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#guestbook{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.div1{ grid-area: 1 / 1 / 2 / 7;
+    border: #ffff0040 solid 1px;
+}
+.div2{ grid-area: 9 / 1 / 11 / 4;
+    border: #ffff0040 solid 1px;
+}
+.div3{ grid-area: 9 / 4 / 11 / 7;
+    border: #ffff0040 solid 1px;
+}
+.div4{ grid-area: 8 / 1 / 9 / 2;
+    border-left: #ffff0040 solid 1px;
+}
+.div5{ grid-area: 7 / 1 / 8 / 2;
+    border-left: #ffff0040 solid 1px;
+}
+.div6{ grid-area: 6 / 1 / 7 / 2;
+    border-left: #ffff0040 solid 1px;
+}
+.div7{ grid-area: 8 / 6 / 9 / 7;
+    border-right: #ffff0040 solid 1px;
+}
+.div8{ grid-area: 7 / 6 / 8 / 7;
+    border-right: #ffff0040 solid 1px;
+}
+.div9{ grid-area: 6 / 6 / 7 / 7;
+    border-right: #ffff0040 solid 1px;
+}
+.div10{ grid-area: 6 / 2 / 9 / 6;
+    border: #ffff0040 solid 1px;
+}
+.div11{ grid-area: 2 / 1 / 6 / 7;
+    border: #ffff0040 solid 1px;
+}
